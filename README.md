@@ -1,83 +1,131 @@
-![Kodi Logo](docs/resources/banner.png)
+# 🖥️ Linux Media Centre
 
-<p align="center">
-  <strong>
-    <a href="https://kodi.tv/">website</a>
-    •
-    <a href="https://kodi.wiki/view/Main_Page">docs</a>
-    •
-    <a href="https://forum.kodi.tv/">community</a>
-    •
-    <a href="https://kodi.tv/addons">add-ons</a>
-  </strong>
-</p>
+**Linux Media Centre (LMC)** is a free and open-source media center for Linux, inspired by the classic **Windows Media Center** experience.
 
-<p align="center">
-  <a href="LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square"></a>
-  <a href="https://docs.kodi.tv/"><img alt="Documentation" src="https://img.shields.io/badge/code-documented-brightgreen.svg?style=flat-square"></a>
-  <a href="https://github.com/xbmc/xbmc/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
-  <a href="#how-to-contribute"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square"></a>
-  <a href="http://jenkins.kodi.tv/"><img alt="Build" src="https://img.shields.io/badge/CI-jenkins-brightgreen.svg?style=flat-square"></a>
-  <a href="https://github.com/xbmc/xbmc/commits/master"><img alt="Commits" src="https://img.shields.io/github/commits-since/xbmc/xbmc/latest.svg?style=flat-square"></a>
-</p>
+LMC aims to bring the comfortable, TV-friendly media center experience of the late 2000s and early 2010s to modern Linux systems — with a simple interface designed to be used from a couch, with a remote control, keyboard, or gamepad.
 
-<a href="https://play.google.com/store/apps/details?id=org.xbmc.kodi" target="_blank">
-  <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="80"/>
-</a>
+> **Your media. Your computer. No ads. No tracking. No bullshit.**
 
-<h1 align="center">
-  Welcome to Kodi Home Theater Software!
-</h1>
+## ✨ Features
 
-Kodi is an award-winning **free and open source** software media player and entertainment hub for digital media. Available as a native application for **Android, Linux, BSD, macOS, iOS, tvOS and Windows operating systems**, Kodi runs on most common processor architectures.
+LMC is planned to provide:
 
-Created in 2003 by a group of like minded programmers, Kodi is a non-profit project run by the XBMC Foundation and developed by volunteers located around the world. More than 500 software developers have contributed to Kodi to date, and 100-plus translators have worked to expand its reach, making it available in more than 70 languages.
+* 🎬 **Movies & TV shows**
+* 🎵 **Music library**
+* 🖼️ **Pictures**
+* 📺 **Live TV**
+* 📅 **Electronic Program Guide (EPG)**
+* ⏺️ **TV recording**
+* 💿 **DVD playback**
+* 📁 **Local and network media**
+* 🎛️ **Remote-control friendly interface**
+* 🎨 **Customizable interface**
+* 🧩 **Extensible architecture**
+* 🐧 **Native Linux support**
 
-While Kodi functions very well as a standard media player application for your computer, it has been designed to be the perfect companion for your HTPC. With its **beautiful interface and powerful skinning engine**, Kodi feels very natural to use from the couch with a remote control and is the ideal solution for your home theater.
+Features are being developed progressively. Some of the functionality listed above may not be available yet.
 
-## Give your media the love it deserves
-Kodi can be used to play almost all popular audio and video formats around. It was designed for network playback, so you can stream your multimedia from anywhere in the house or directly from the internet using practically any protocol available.
+## 🎨 Design
 
-Point Kodi to your media and watch it **scan and automagically create a personalized library** complete with box covers, descriptions, and fanart. There are playlist and slideshow functions, a weather forecast feature and many audio visualizations. Once installed, your computer or HTPC will become a fully functional multimedia jukebox.
+LMC is heavily inspired by the design philosophy of **Windows Media Center**.
 
-<p align="center">
-  <img src="docs/resources/kodi.gif" alt="Kodi">
-</p>
+The goal isn't to simply make another desktop media player. LMC is intended to feel like a dedicated **media center**:
 
-## Getting Started
-Kodi's developers work hard to make it support a large range of devices and operating systems. We provide final as well as development builds. To get started, head over to the **[downloads section](https://kodi.tv/download)** and simply select the platform that you want to install it on. A **[quick start guide](https://kodi.wiki/view/quick_start_guide)** to help you get acquainted with Kodi is available in our wiki.
+* Large, readable interface elements
+* Smooth navigation
+* Minimal text input
+* Remote-friendly controls
+* Clear media categories
+* Full-screen experience
+* Animations and transitions
+* A UI that looks good on a TV from several meters away
 
-## How to Contribute
-Kodi is created by users for users and **we welcome every contribution**. There are no highly paid developers or poorly paid support personnel on the phones ready to take your call. There are only users who have seen a problem and done their best to fix it. This means Kodi will always need the contributions of users like you. How can you get involved?
+Think **Windows Media Center — but running on Linux**.
 
-* **Coding:** Developers can help Kodi by **[fixing a bug](https://github.com/xbmc/xbmc/issues)**, adding new features, making our technology smaller and faster and making development easier for others. Kodi's codebase consists mainly of C++ with small parts written in a variety of coding languages. Our add-ons mainly consist of python and XML. For more information, please have a look at our **[contributing guide](docs/CONTRIBUTING.md)**.
-* **Helping users:** Our support process relies on enthusiastic contributors like you to help others get the most out of Kodi. The #1 priority is always answering questions in our **[support forums](https://forum.kodi.tv/)**. Everyday new people discover Kodi, and everyday they are virtually guaranteed to have questions.
-* **Localization:** Translate **[Kodi](https://kodi.weblate.cloud/projects/kodi-core/kodi-main/)**, **[add-ons, skins etc.](https://kodi.weblate.cloud/)** into your native language.
-* **Add-ons:** **[Add-ons](https://kodi.tv/addons)** are what make Kodi the most extensible and customizable entertainment hub available. **[Get started building an add-on](https://kodi.tv/create-an-addon)**.
-* **Documentation:** Kodi's **[wiki pages](https://kodi.wiki/)** are the hub for information about Kodi and surrounding ecosystem. Help make our documentation better by writing new content or correcting existing material.
+## 🐧 Why Linux Media Centre?
 
-**Not enough free time?** No problem! There are other ways to help Kodi.
+Windows Media Center was discontinued by Microsoft, leaving many users without a modern equivalent that provides the same living-room experience.
 
-* **Spread the word:** Share Kodi with the world! Tell your friends and family about how Kodi creates an amazing entertainment experience. Stay up to date on the latest stories about Kodi reading our **[news](https://kodi.tv/blog)** section, follow us on **[Twitter](https://twitter.com/koditv)** and **[Facebook](https://www.facebook.com/XBMC/)**, or **star Kodi's repo** if you want to follow development.
-* **Donate:** We are always happy to receive a **[donation](https://kodi.tv/contribute/donate)**. Donations are typically used for travel to attend conferences, any necessary paperwork and legal fees, and the yearly XBMC Foundation Developers Conference, where a great deal of coding and planning for the following year occurs. Donations may also be used to purchase necessary hardware and licenses for developers, along with t-shirts, stickers, and other accessories for conferences.
-* **Buy Kodi merchandise:** Purchasing Kodi gear helps just as much as a donation, and you get something in return! Checkout our **[store](https://kodi.tv/store)** for Kodi branded gear. We regularly add new products so check back often.
+LMC aims to continue that idea on Linux.
 
-## Building
-Kodi uses CMake as its building system but instructions are highly dependent on your operating system and target platform. Fortunately **[we've got you covered](docs/README.md)**.
+Instead of turning a computer into another conventional desktop, LMC treats it as a **media appliance**.
 
-## Acknowledgements
-Kodi couldn't exist without
+Connect a PC to your TV, start LMC, grab your remote and you're ready to go.
 
-* All the **[contributors](https://github.com/xbmc/xbmc/graphs/contributors)**. Big or small a change, it does make a difference.
-* All the developers that write the fantastic **software and libraries** that Kodi uses. We stand on the shoulders of giants.
-* Our **[fantastic community](https://forum.kodi.tv/)** for the never ending support, inspiration, feedback, and for keeping us on our toes when we screw up!
-* **[Our sponsors](https://kodi.tv/sponsors)**. Without them, keeping a huge project like this alive would be next to impossible.
+## 🔒 Privacy
 
-## License
-Kodi is **[GPLv2 licensed](LICENSE.md)**. You may use, distribute and copy it under the license terms.
+LMC is designed with privacy in mind.
 
-<a href="https://github.com/xbmc/xbmc/graphs/contributors"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" height="25"></a>
-<a href="https://github.com/xbmc/xbmc"><img src="https://forthebadge.com/images/badges/certified-cousin-terio.svg" height="25"></a>
-<a href="https://github.com/xbmc/xbmc"><img src="https://forthebadge.com/images/badges/approved-by-george-costanza.svg" height="25"></a>
-<a href="https://kodi.tv/download"><img src="https://forthebadge.com/images/badges/check-it-out.svg" height="25"></a>
-<a href="https://github.com/xbmc/xbmc"><img src="https://forthebadge.com/images/badges/winter-is-coming.svg" height="25"></a>
+**LMC will not intentionally include:**
+
+* ❌ Advertising
+* ❌ User tracking
+* ❌ Telemetry without explicit user consent
+* ❌ Hidden network services
+* ❌ Backdoors
+
+The project is open source so that anyone can inspect, modify, build and contribute to the software.
+
+## 🛠️ Technology
+
+LMC is built for Linux and aims to use established open-source multimedia technologies rather than reinventing every part of the media stack.
+
+The project currently explores the use of **Kodi** as the underlying multimedia platform, while developing an LMC-specific user experience inspired by Windows Media Center.
+
+The exact architecture is still evolving.
+
+## 🚧 Development Status
+
+LMC is currently **experimental and under active development**.
+
+Things may break. Features may change. The interface may look completely different tomorrow.
+
+That's part of the fun. :D
+
+### Roadmap
+
+* [ ] Basic LMC interface
+* [ ] TV-friendly navigation
+* [ ] Media library
+* [ ] Movie and TV show playback
+* [ ] Music library
+* [ ] Picture viewer
+* [ ] DVD playback
+* [ ] Remote-control support
+* [ ] PVR / Live TV
+* [ ] EPG
+* [ ] TV recording
+* [ ] Custom themes
+* [ ] First stable release
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+You can help by:
+
+* Reporting bugs
+* Suggesting features
+* Improving the interface
+* Writing code
+* Creating themes
+* Improving documentation
+* Testing LMC on different hardware
+
+Before contributing, please check the project's issue tracker and contribution guidelines.
+
+## 📜 License
+
+LMC is free and open-source software.
+
+See the repository's license files for the exact licensing terms of the project and its dependencies.
+
+## ❤️ Inspiration
+
+LMC is inspired by the classic **Windows Media Center** experience and the idea of having a dedicated, beautiful media interface for the living room.
+
+Built for Linux.
+
+Built for the community.
+
+**Built because we miss Media Center.** 🐧📺
